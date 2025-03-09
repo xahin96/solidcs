@@ -1,0 +1,56 @@
+# Ignore Visual Studio Code workspace settings
+.vscode/
+
+# Ignore build outputs
+bin/
+obj/
+out/
+*.dll
+*.exe
+*.pdb
+*.log
+*.cache
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.rsuser
+*.sln.ide
+*.sln.docstates
+
+# Ignore Entity Framework migrations (optional)
+Migrations/
+
+# Ignore ASP.NET config files (if applicable)
+appsettings*.json
+secrets.json
+
+# Ignore Debug/Release folders
+Debug/
+Release/
+
+# Ignore test results and coverage
+TestResults/
+coverage/
+.coverage
+*.coverage
+*.trx
+
+# Ignore local databases
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Ignore Docker files (if using Docker)
+docker-compose.override.yml
+**/docker-compose.override.yml
+
+# Miscellaneous
+Thumbs.db
+desktop.ini
