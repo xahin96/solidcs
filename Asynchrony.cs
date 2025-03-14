@@ -5,3 +5,12 @@ public class AsyncDemo
         return a + b;
     }
 }
+
+public class Messeger
+{
+    public async Task<string> GetMessageAsync()
+    {
+        await Task.Delay(2000);
+        return "Hello World";
+    }
+}

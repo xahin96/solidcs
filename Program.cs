@@ -27,5 +27,25 @@ public class Program
         var sumAsync = new AsyncDemo();
         var result = await sumAsync.GetSumAsync(1, 2);
         Console.WriteLine(result);
+
+        var messeger = new Messeger();
+        var message = await messeger.GetMessageAsync();
+        Console.WriteLine(message);
     }
 }
+
+// js question:
+// 4 console logs
+// first and last is just simple console.log
+// second is with a setTimeout
+// third is with a promise
+// what will be the order of the console logs?
+// 1, 4, 2, 3
+// code snippet:
+// console.log(1);
+// setTimeout(() => console.log(2), 0);
+// console.log(3);
+// new Promise((resolve, reject) => {
+//     console.log(4);
+//     resolve();
+// });
