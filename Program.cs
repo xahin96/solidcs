@@ -49,3 +49,18 @@ public class Program
 //     console.log(4);
 //     resolve();
 // });
+
+// question on async await C#
+// what is the output of the following code snippet?
+// var sumAsync = new AsyncDemo();
+// var result = await sumAsync.GetSumAsync(1, 2);
+// Console.WriteLine(result);
+// code snippet:
+// public class AsyncDemo
+// {
+//     public async Task<int> GetSumAsync(int a, int b)
+//     {
+//         await Task.Delay(1000);
+//         return a + b;        
+//     }
+// }
