@@ -26,11 +26,12 @@ public class Program
 
         var sumAsync = new AsyncDemo();
         var result = await sumAsync.GetSumAsync(1, 2);
-        Console.WriteLine(result);
-
         var messeger = new Messeger();
         var message = await messeger.GetMessageAsync();
+
         Console.WriteLine(message);
+        Console.WriteLine(result);
+        Console.WriteLine("Hello World!");        
     }
 }
 
