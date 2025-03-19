@@ -30,8 +30,9 @@ public class Program
         var message = await messeger.GetMessageAsync();
 
         Console.WriteLine(message);
+                Console.WriteLine("Hello World!");        
+
         Console.WriteLine(result);
-        Console.WriteLine("Hello World!");        
     }
 }
 
